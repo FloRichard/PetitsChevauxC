@@ -1,0 +1,8 @@
+COMPILATION:
+	Afin de compiler le programme et de l'exécuter, il suffit de lancer la commande make en se situant dans le répertoire du ProjetV3.
+DOCUMENTATION:
+	Pour accéder à la documentation, aller dans le répertoire Documentatino Doxygen puis dans le répertoire html et lancer le fichier index.html.
+
+Si problème il y a, merci de nous contacter aux adresses suivantes :
+-21805635@etu.unicaen.fr
+-21800630@etu.unicaen.fr
