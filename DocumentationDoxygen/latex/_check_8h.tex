@@ -1,0 +1,40 @@
+\hypertarget{_check_8h}{}\section{Check.\+h File Reference}
+\label{_check_8h}\index{Check.\+h@{Check.\+h}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{_check_8h_a07897ac197acfb74118c6eb3cf45775c}{check} (\hyperlink{struct_player}{Player} tab\+Player\mbox{[}$\,$\mbox{]}, \hyperlink{struct_cell}{Cell} tab\mbox{[}56\mbox{]}, int pos, int X, int I, int ans, int dice)
+\begin{DoxyCompactList}\small\item\em Fonction vérifiant si le déplacement d\textquotesingle{}un pion est possible. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_check_8h_a07897ac197acfb74118c6eb3cf45775c}\label{_check_8h_a07897ac197acfb74118c6eb3cf45775c}} 
+\index{Check.\+h@{Check.\+h}!check@{check}}
+\index{check@{check}!Check.\+h@{Check.\+h}}
+\subsubsection{\texorpdfstring{check()}{check()}}
+{\footnotesize\ttfamily int check (\begin{DoxyParamCaption}\item[{\hyperlink{struct_player}{Player}}]{tab\+Player\mbox{[}$\,$\mbox{]},  }\item[{\hyperlink{struct_cell}{Cell}}]{tab\mbox{[}56\mbox{]},  }\item[{int}]{pos,  }\item[{int}]{X,  }\item[{int}]{I,  }\item[{int}]{ans,  }\item[{int}]{dice }\end{DoxyParamCaption})}
+
+
+
+Fonction vérifiant si le déplacement d\textquotesingle{}un pion est possible. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tab\+Player\mbox{[}$\,$\mbox{]}} & Tableau permettant d\textquotesingle{}identifier le joueur. \\
+\hline
+{\em tab\mbox{[}$\,$\mbox{]}} & Le chemin que les pions parcourent. \\
+\hline
+{\em pos} & Position du cheval avant le lancer dé. \\
+\hline
+{\em X} & Position du cheval après le lancer de dé. \\
+\hline
+{\em I} & Indice du joueur. \\
+\hline
+{\em ans} & numéro du cheval qui a été choisi \\
+\hline
+{\em dice} & résultat du lancer de dé \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1, 2, 3 ou 4 selon la situation et permet ou non le déplacement. 
+\end{DoxyReturn}

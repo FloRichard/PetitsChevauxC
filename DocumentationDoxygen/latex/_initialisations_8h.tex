@@ -1,0 +1,70 @@
+\hypertarget{_initialisations_8h}{}\section{Initialisations.\+h File Reference}
+\label{_initialisations_8h}\index{Initialisations.\+h@{Initialisations.\+h}}
+{\ttfamily \#include \char`\"{}Struct.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_initialisations_8h_a38929d7d0016d60765bbd31a88ecc3ce}{Init\+Array} (int tab\mbox{[}$\,$\mbox{]}\mbox{[}15\mbox{]})
+\begin{DoxyCompactList}\small\item\em Fonction initialisant le plateau de jeu. \end{DoxyCompactList}\item 
+void \hyperlink{_initialisations_8h_afa2edf659edb4529d997292f6cc628f9}{Init\+Path} (int tab\mbox{[}$\,$\mbox{]}\mbox{[}15\mbox{]}, \hyperlink{struct_cell}{Cell} path\mbox{[}56\mbox{]})
+\begin{DoxyCompactList}\small\item\em Fonction initialisant le parcours des pions. \end{DoxyCompactList}\item 
+void \hyperlink{_initialisations_8h_acc53b85eb724896f33261300837dddfd}{Init\+Path\+Win} (int tab\mbox{[}$\,$\mbox{]}\mbox{[}15\mbox{]}, \hyperlink{struct_cell}{Cell} t1\mbox{[}$\,$\mbox{]}, \hyperlink{struct_cell}{Cell} t2\mbox{[}$\,$\mbox{]}, \hyperlink{struct_cell}{Cell} t3\mbox{[}$\,$\mbox{]}, \hyperlink{struct_cell}{Cell} t4\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Fonction initialisant le chemin de victoire de chaque joueur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_initialisations_8h_a38929d7d0016d60765bbd31a88ecc3ce}\label{_initialisations_8h_a38929d7d0016d60765bbd31a88ecc3ce}} 
+\index{Initialisations.\+h@{Initialisations.\+h}!Init\+Array@{Init\+Array}}
+\index{Init\+Array@{Init\+Array}!Initialisations.\+h@{Initialisations.\+h}}
+\subsubsection{\texorpdfstring{Init\+Array()}{InitArray()}}
+{\footnotesize\ttfamily void Init\+Array (\begin{DoxyParamCaption}\item[{int}]{tab\mbox{[}$\,$\mbox{]}\mbox{[}15\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Fonction initialisant le plateau de jeu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tab\mbox{[}$\,$\mbox{]}\mbox{[}15\mbox{]}} & Tableau 2D du plateau. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_initialisations_8h_afa2edf659edb4529d997292f6cc628f9}\label{_initialisations_8h_afa2edf659edb4529d997292f6cc628f9}} 
+\index{Initialisations.\+h@{Initialisations.\+h}!Init\+Path@{Init\+Path}}
+\index{Init\+Path@{Init\+Path}!Initialisations.\+h@{Initialisations.\+h}}
+\subsubsection{\texorpdfstring{Init\+Path()}{InitPath()}}
+{\footnotesize\ttfamily void Init\+Path (\begin{DoxyParamCaption}\item[{int}]{tab\mbox{[}$\,$\mbox{]}\mbox{[}15\mbox{]},  }\item[{\hyperlink{struct_cell}{Cell}}]{path\mbox{[}56\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Fonction initialisant le parcours des pions. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em path\mbox{[}56\mbox{]}} & tableau représentant le parcours des pions. \\
+\hline
+{\em tab\mbox{[}$\,$\mbox{]}\mbox{[}15\mbox{]}} & Tableau 2D du plateau \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_initialisations_8h_acc53b85eb724896f33261300837dddfd}\label{_initialisations_8h_acc53b85eb724896f33261300837dddfd}} 
+\index{Initialisations.\+h@{Initialisations.\+h}!Init\+Path\+Win@{Init\+Path\+Win}}
+\index{Init\+Path\+Win@{Init\+Path\+Win}!Initialisations.\+h@{Initialisations.\+h}}
+\subsubsection{\texorpdfstring{Init\+Path\+Win()}{InitPathWin()}}
+{\footnotesize\ttfamily void Init\+Path\+Win (\begin{DoxyParamCaption}\item[{int}]{tab\mbox{[}$\,$\mbox{]}\mbox{[}15\mbox{]},  }\item[{\hyperlink{struct_cell}{Cell}}]{t1\mbox{[}$\,$\mbox{]},  }\item[{\hyperlink{struct_cell}{Cell}}]{t2\mbox{[}$\,$\mbox{]},  }\item[{\hyperlink{struct_cell}{Cell}}]{t3\mbox{[}$\,$\mbox{]},  }\item[{\hyperlink{struct_cell}{Cell}}]{t4\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Fonction initialisant le chemin de victoire de chaque joueur. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tab\mbox{[}$\,$\mbox{]}\mbox{[}15\mbox{]}} & Tableau 2D du plateau. \\
+\hline
+{\em t1\mbox{[}$\,$\mbox{]}} & Chemin de victoire du Joueur 1. \\
+\hline
+{\em t2\mbox{[}$\,$\mbox{]}} & Chemin de victoire du Joueur 2. \\
+\hline
+{\em t3\mbox{[}$\,$\mbox{]}} & Chemin de victoire du Joueur 3. \\
+\hline
+{\em t4\mbox{[}$\,$\mbox{]}} & Chemin de victoire du Joueur 4. \\
+\hline
+\end{DoxyParams}
